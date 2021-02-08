@@ -1,6 +1,40 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+}       
+.content{
+    padding: 40px;
+    margin: 3% 10%;
+}
+h3 {
+    position: absolute;
+    left : 40px; 
+    top:6px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 20px;
+    
+}
+h3 span{
+    margin-left: 20px;
+    font-size: 35px;
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+    margin: 50px auto;
+    background-color: red;
+    border: 3px solid blue;
 }
